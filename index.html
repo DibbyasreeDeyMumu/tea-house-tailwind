@@ -26,7 +26,7 @@
 <body>
     <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
         <!-- header section -->
-       <header class="flex pt-10 mb-20">
+       <header class="grid grid-cols-1 lg:grid-cols-2 pt-10 mb-20">
         <div>
             <h1 class="text-5xl md:text-7xl font-bold">It's good <br>tea time at The <br> Tea House</h1>
             <br>
@@ -168,5 +168,85 @@
        </section>
        
     </main>
+    <footer class="bg-red-50 mt-24 py-10">
+      <div class="w-9/12 mx-auto py-24">
+        <!-- logo -->
+        <div class="flex justify-between mb-20">
+          <img src="images/cup.png" alt="">
+          <div class="flex items-center gap-4">
+           <h2 class="text-[#777777]">Ready to get strated?</h2>
+           <button class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-4 rounded-lg text-white font-bold text-xl">Get Started</button>
+          </div>
+        </div>
+        <!-- links -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 my-10">
+           <div>
+            <h2 class="font-semibold text-2xl mb-3">Quick Links</h2>
+            <ul class="space-y-4">
+              <li>
+                <a class="hover:bg-orange-400" href="">Home</a>
+              </li>
+              <li>
+                <a class="hover:bg-orange-400" href="">About Us</a>
+              </li>
+              <li>
+                <a class="hover:bg-orange-400" href="">Insurance</a>
+              </li>
+              <li>
+                <a class="hover:bg-orange-400" href="">Privacy Policy</a>
+              </li>
+            </ul>
+           </div>
+           <div>
+            <h2 class="font-semibold text-2xl mb-3">Our Service</h2>
+            <ul class="space-y-4">
+              <li>
+                <a class="hover:bg-orange-400" href="">Life Insurance</a>
+              </li>
+              <li>
+                <a class="hover:bg-orange-400" href="">Car Insurance</a>
+              </li>
+              <li>
+                <a class="hover:bg-orange-400" href="">Health Insurance</a>
+              </li>
+              <li>
+                <a class="hover:bg-orange-400" href="">House Insurance</a>
+              </li>
+            </ul>
+           </div>
+           <div>
+            <h2 class="font-semibold text-2xl mb-3">Help</h2>
+            <ul class="space-y-4">
+              <li>
+                <a class="hover:bg-orange-400" href="">FAQs</a>
+              </li>
+              <li>
+                <a class="hover:bg-orange-400" href="">Contact Us</a>
+              </li>
+              </ul>
+           </div>
+           <div class="flex flex-col space-y-2">
+             <div>
+              <h2 class="text-3xl mb-5">Subscribe to our newsletter</h2>
+              <div>
+                <input placeholder="Email address" class=" text-xl bg-transparent border-b-2 border-black w-4/6 " type="text">
+                <i class="fa-solid fa-chevron-right inline-flex rounded-full bg-orange-600 p-3 text-white justify-center mb-10"></i>
+              </div>
+              <div class="flex justify-between w-2/5">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+             </div>
+           </div>
+
+           
+        </div>
+        <div>
+          <h2 class="text-gray-400 text-center font-2xl">© 2027 UIDesign.to - All rights reserved.</h2>
+        </div>
+      </div>
+      
+    </footer>
 </body>
 </html>
